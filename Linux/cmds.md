@@ -33,4 +33,7 @@ watch -n 1 nvidia-smi --query-gpu=timestamp,pstate,temperature.gpu,utilization.g
 
 # terminal size
 stty size
+
+# debug make
+make --debug=b <cmd>
 ```
